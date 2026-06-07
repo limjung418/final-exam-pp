@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>블로그</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>블로그 학습 기록</h1>
+      <p>웹프로그래밍 공부 내용을 정리한 블로그</p>
+    </header>
+
+    <nav>
+      <a href="index.html">소개</a>
+      <a href="study.html">학습 내용</a>
+      <a href="project.html">팀 프로젝트</a>
+      <a href="blog.html">블로그</a>
+      <a href="links.html">링크</a>
+    </nav>
+
+    <main>
+      <section class="card">
+        <h2>블로그, Github 소개</h2>
+        <p>
+          웹프로그래밍 수업에서 배운 내용을 블로그에 정리했습니다. JavaScript의
+          역할, 기본 문법, 연산자, 조건문, 함수, 이벤트 처리 등을 복습하며
+          기록했습니다.
+        </p>
+
+        <button onclick="showBlog()">블로그 설명 보기</button>
+        <p id="blogText" class="result"></p>
+
+        <a
+          class="linkBtn"
+          href="https://jungbusg123.blogspot.com/"
+          target="_blank"
+        >
+          블로그 바로가기
+        </a>
+        <a class="linkBtn" href="https://github.com/limjung418" target="_blank">
+          GitHub 바로가기
+        </a>
+      </section>
+
+      <section class="card">
+        <h2>블로그 글 예시</h2>
+        <ul>
+          <li>자바스크립트의 역할과 활용</li>
+          <li>연산자와 조건문 학습 정리</li>
+          <li>함수와 이벤트 처리 학습 정리</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2026 나의 포트폴리오</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
